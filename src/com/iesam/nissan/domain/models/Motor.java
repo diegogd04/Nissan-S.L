@@ -1,12 +1,11 @@
 package com.iesam.nissan.domain.models;
 
-public class Rueda implements Accesorios{
+public class Motor implements Accesorios{
     private Integer codigoAccesorio;
     private String modeloAccesorio;
     private Integer unidadesAccesorio;
-    private String marca;
-    private Integer diametro;
-
+    private Integer cilindrada;
+    private Integer caballos;
 
     @Override
     public Integer getCodigoAccesorio() {
@@ -38,19 +37,19 @@ public class Rueda implements Accesorios{
         this.unidadesAccesorio = unidadesAccesorio;
     }
 
-    public String getMarca() {
-        return marca;
+    public Integer getCilindrada() {
+        return cilindrada;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
+    public void setCilindrada(Integer cilindrada) {
+        this.cilindrada = cilindrada;
     }
 
-    public Integer getDiametro() {
-        return diametro;
+    public Integer getCaballos() {
+        return caballos;
     }
 
-    public void setDiametro(Integer diametro) {
-        this.diametro = diametro;
+    public void setCaballos(Integer caballos) {
+        this.caballos = caballos;
     }
 }

@@ -1,8 +1,8 @@
 package com.iesam.nissan.domain.models;
 
 public interface Accesorios {
-    public String getCodigoAccesorio();
-    public void setCodigoAccesorio(String codigoAccesorio);
+    public Integer getCodigoAccesorio();
+    public void setCodigoAccesorio(Integer codigoAccesorio);
 
     public String getModeloAccesorio();
     public void setModeloAccesorio(String modeloAccesorio);
